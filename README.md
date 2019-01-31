@@ -15,7 +15,7 @@ _Epicodus coursework, creation of a ticket website in which users pick multiple 
 | Program displays movies | Button Click | All movies show |
 | User selects movie to see price | Select Movie | Base Price Shows |
 | Program filters movies based on age | Age Input | Display either Rated G or PG17 movies |
-| Program filters movies basedon time | Time Input | Display Times for Night or Day |
+| Program filters movies based on time | Time Input | Display Times for Night or Day |
 
 
 ## Setup/Installation Requirements

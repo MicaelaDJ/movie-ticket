@@ -9,13 +9,46 @@ var ticketOne = new Ticket();
 var ticketTwo = new Ticket();
 var ticketThree = new Ticket();
 
+Ticket.prototype.movieChecker = function() {
+  if (this.movie === "New") {
+    return true;
+  }
+  else {
+    return false;
+  };
+};
+
+Ticket.prototype.ageChecker = function() {
+  if (this.age >= 16) {
+    return true;
+  }
+  else {
+    return false;
+  };
+};
+
+// Ticket.proto.discountChecker {
+// if age <= 12 || >= 65 {
+// return true } else { return false}
+
+Ticket.prototype.timeChecker = function() {
+  if (this.time === "Night") {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
 
 
 Ticket.prototype.ticketPrice = function() {
-  this.price = moviePrice + timePrice + agePrice;
-  if (age <= 16) {
-    return
-  };
+    // if new + night { price++}
+    // else if new || night { price+ }
+    // else {price}
+    //if discountChecker = true { price-}
+    //else {prise}
+    // return price
 };
 
 // User Interface
